@@ -45,6 +45,7 @@ header h1 {
 .menu a, .menu button {
     color: var(--spotify-white);
     text-decoration: none;
+    display: flex;
     border: none;
     font-size: 16px;
     padding: 20px;
@@ -53,6 +54,7 @@ header h1 {
 
 .menu button:hover,
 .menu a:hover {
+    cursor: pointer;
     background-color: var(--spotify-green);
 }
 
@@ -68,8 +70,6 @@ header h1 {
 
 
 .dropdown {
-    position: relative;
-    display: inline-block;
 }
 
 .dropdown-content {
@@ -97,6 +97,7 @@ header h1 {
 }
 
 .dropbtn {
+    border: none;
     position: relative; 
  }
 
