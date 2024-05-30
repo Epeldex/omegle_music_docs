@@ -1,43 +1,135 @@
-
 <!DOCTYPE html>
-<html >
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/stylesheet.css"/>
-        <title>Omegle Music </title>
-        <script src="../js/script.js"></script>
-    </head>
-    <body>
-        <header>
-            <nav class="menu">
-                <a id="omegleMusicButton" href="./index.html">Omegle Music</a>
-                <div class="dropdown">
-                    <a class="dropbtn">Menú</a>
-                    <div class="dropdown-content">
-                        <a id="btnOmegleMusic" href="./about.html">Sobre Omegle Music</a>
-                        <a id="btnQuienesSomos" href="./quienes_somos.html">Quiénes somos</a>
-                        <a id="btnObjetivos" href="./objetivos.html">Objetivos</a>
-                        <a id="btnRiesgos" href="./riesgos.html">Riesgos</a>
-                        <a id="btnTareas" >Tareas y cronograma</a>
-                        <a id="btnPresupuesto" href="./presupuestos.html">Recursos y presupuesto</a>
-                        <a id="btnSeguimiento" href="./seguimiento.html">Seguimiento y Evaluación</a>
-                    </div>
-                </div>
-            </nav>
-        </header>
+<html>
 
-        <div class="container">
-            <h1>Planificacion del proyecto</h1>
-            <section>
-                <h3>Cronograma</h3>
-                <img src="../img/Gantt.png">
-                <h3> Recursos humanos</h3>
-                <img src="../img/Recursos.png">
-            </section>
-        </div>
-        <footer>
-            <p>&copy; 2024 Omegle Music. All rights reserved.</p>
-        </footer>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesheet.css" />
+    <title>Omegle Music </title>
+    <script src="../js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <a id="omegleMusicButton" href="./index.html">Omegle Music</a>
+            <div class="dropdown">
+                <a class="dropbtn">Menú</a>
+                <div class="dropdown-content">
+                    <a id="btnObjetivos" href="./objetivos.html">Objetivos</a>
+                    <a id="btnRiesgos" href="./riesgos.html">Riesgos</a>
+                    <a id="btnTareas">Tareas y cronograma</a>
+                    <a id="btnPresupuesto" href="./presupuestos.html">Recursos y presupuesto</a>
+                    <a id="btnTecnica" href="./documentacion_tecnica.html">Documentacion Tecnica</a>
+                    <a id="btnSeguimiento" href="./evaluacion.html">Evaluación</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Planificacion del proyecto</h1>
+        <section>
+            <table class="task-table">
+                <thead>
+                    <tr>
+                        <th>Tarea</th>
+                        <th>Fecha</th>
+                        <th>Responsable</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Análisis de modelo de datos conceptual</td>
+                        <td>26 de febrero</td>
+                        <td>Ana (Analista)</td>
+                    </tr>
+                    <tr>
+                        <td>Elaboración de los Casos de Uso</td>
+                        <td>27 de febrero - 3 de marzo</td>
+                        <td>Ana (Analista)</td>
+                    </tr>
+                    <tr>
+                        <td>Desarrollo del Diagrama Conceptual</td>
+                        <td>4 de marzo</td>
+                        <td>Ana (Analista)</td>
+                    </tr>
+                    <tr>
+                        <td>Desarrollo del Diagrama de Clases Detallado</td>
+                        <td>26 de febrero - 4 de marzo</td>
+                        <td>DG (Diseñador Gráfico)</td>
+                    </tr>
+                    <tr>
+                        <td>Desarrollo del modelo de datos e implementación de la base de datos</td>
+                        <td>8-11 de marzo</td>
+                        <td>PJR1 (Programador Jr 1), PJR2 (Programador Jr 2), PS (Programador Senior)</td>
+                    </tr>
+                    <tr>
+                        <td>Desarrollo de las entidades</td>
+                        <td>12-15 de marzo</td>
+                        <td>PJR1 (Programador Jr 1), PJR2 (Programador Jr 2), PS (Programador Senior)</td>
+                    </tr>
+                    <tr>
+                        <td>Desarrollo de los ejbs</td>
+                        <td>16-19 de marzo</td>
+                        <td>PJR1 (Programador Jr 1), PJR2 (Programador Jr 2), PS (Programador Senior)</td>
+                    </tr>
+                    <tr>
+                        <td>Desarrollo de los servicios REST</td>
+                        <td>8-11 de marzo</td>
+                        <td>PS (Programador Senior)</td>
+                    </tr>
+                    <tr>
+                        <td>Desarrollo de la estructura del Cliente</td>
+                        <td>12-15 de marzo</td>
+                        <td>PS (Programador Senior)</td>
+                    </tr>
+                    <tr>
+                        <td>Desarrollo de la lógica del Cliente</td>
+                        <td>16-19 de marzo</td>
+                        <td>PS (Programador Senior)</td>
+                    </tr>
+                    <tr>
+                        <td>Diseño de la interfaz gráfica del Cliente</td>
+                        <td>8-15 de marzo</td>
+                        <td>DG (Diseñador Gráfico)</td>
+                    </tr>
+                    <tr>
+                        <td>Desarrollo de la capa de presentación</td>
+                        <td>16-19 de marzo</td>
+                        <td>PS (Programador Senior), PJR1 (Programador Jr 1)</td>
+                    </tr>
+                    <tr>
+                        <td>Implementación de la comunicación encriptada</td>
+                        <td>8-11 de marzo</td>
+                        <td>PS (Programador Senior)</td>
+                    </tr>
+                    <tr>
+                        <td>Testeo integrado de la aplicación</td>
+                        <td>22 de marzo al 2 de abril</td>
+                        <td>QAT (Quality Assurance Tester)</td>
+                    </tr>
+                    <tr>
+                        <td>Documentación del funcionamiento de la app</td>
+                        <td>5-16 de abril</td>
+                        <td>Ana (Analista)</td>
+                    </tr>
+                    <tr>
+                        <td>Testeo del producto final</td>
+                        <td>19-20 de abril</td>
+                        <td>PS (Programador Senior)</td>
+                    </tr>
+                    <tr>
+                        <td>Empaquetado y despliegue</td>
+                        <td>21-23 de abril</td>
+                        <td>PS (Programador Senior)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <h1>Cronograma</h1>
+        <img src="../img/Gantt.png" class="center">
+    </div>
+</body>
+
 </html>

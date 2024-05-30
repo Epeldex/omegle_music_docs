@@ -1,56 +1,90 @@
 <!DOCTYPE html>
-<html >
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/stylesheet.css"/>
-        <title>Omegle Music - Página Principal</title>
-        <script src="../js/script.js"></script>
-    </head>
-    <body>
-        <header>
-            <nav class="menu">
-                <a id="omegleMusicButton" href="./index.html">Omegle Music</a>
-                <div class="dropdown">
-                    <a class="dropbtn">Menú</a>
-                    <div class="dropdown-content">
-                        <a id="btnOmegleMusic" href="./about.html">Sobre Omegle Music</a>
-                        <a id="btnQuienesSomos" href="./quienes_somos.html">Quiénes somos</a>
-                        <a id="btnObjetivos">Objetivos</a>
-                        <a id="btnRiesgos" href="./riesgos.html">Riesgos</a>
-                        <a id="btnTareas" href="./tareas.html">Tareas y cronograma</a>
-                        <a id="btnPresupuesto" href="./presupuestos.html">Recursos y presupuesto</a>
-                        <a id="btnSeguimiento" href="./seguimiento.html">Seguimiento y Evaluación</a>
-                    </div>
-                </div>
-            </nav>
-        </header>
+<html>
 
-        <div class="container">
-            <h1>Objetivos</h1>
-            <section>
-                <h3> Generales </h3>
-                <p>Los objetivos generales de esta plataforma están orientados a transformar la manera en que los amantes de la
-                    música interactúan y comparten sus pasiones. Al fomentar la conexión global entre usuarios con intereses
-                    similares, la plataforma propone una experiencia multimedia interactiva que no solo permite la reproducción
-                    de música en tiempo real, sino que también integra funciones sociales como el chat. Esto facilita el
-                    descubrimiento musical y promueve una interacción social rica y constante, permitiendo que los usuarios
-                    compartan sus gustos musicales y descubran nuevas melodías y géneros. Además, se busca ofrecer una interfaz
-                    intuitiva y fácil de manejar que asegure una navegación fluida y accesible para todos los usuarios,
-                    garantizando así una experiencia satisfactoria y sin complicaciones. </p>
-                <h3> Específicos</h3>
-                <p>En cuanto a los objetivos específicos, la plataforma se compromete a desarrollar un sistema de recomendación
-                    altamente personalizado que se ajuste a las preferencias individuales de cada usuario, asegurando que las
-                    sugerencias musicales sean pertinentes y enriquecedoras. Para complementar la experiencia musical, se
-                    implementarán salas temáticas y funciones de chat en tiempo real que fomenten la interacción durante la
-                    escucha. Adicionalmente, se prevé la integración con servicios de streaming populares para ampliar el acceso
-                    a diversos catálogos de música. Todo esto se complementará con un firme compromiso hacia la seguridad y
-                    privacidad de los datos de los usuarios, estableciendo una plataforma segura donde puedan explorar y
-                    disfrutar de la música mientras interactúan con otros aficionados alrededor del mundo.</p>
-            </section>
-        </div>
-        <footer>
-            <p>&copy; 2024 Omegle Music. All rights reserved.</p>
-        </footer>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesheet.css" />
+    <title>Omegle Music - Página Principal</title>
+    <script src="../js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <a id="omegleMusicButton" href="./index.html">Omegle Music</a>
+            <div class="dropdown">
+                <a class="dropbtn">Menú</a>
+                <div class="dropdown-content">
+                    <a id="btnObjetivos">Objetivos</a>
+                    <a id="btnRiesgos" href="./riesgos.html">Riesgos</a>
+                    <a id="btnTareas" href="./tareas.html">Tareas y cronograma</a>
+                    <a id="btnPresupuesto" href="./presupuestos.html">Recursos y presupuesto</a>
+                    <a id="btnTecnica" href="./documentacion_tecnica.html">Documentacion Tecnica</a>
+                    <a id="btnSeguimiento" href="./evaluacion.html">Evaluación</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Objetivos</h1>
+        <section>
+            <h2> Generales </h2>
+            <ul>
+                <li>Fomentar la conexión entre amantes de la música de todo el mundo, proporcionando una plataforma
+                    interactiva y colaborativa para compartir y descubrir música simultáneamente.
+                </li>
+                <li>
+                    Facilitar el descubrimiento musical al ofrecer una experiencia multimedia enriquecedora que combine
+                    la reproducción de música en tiempo real con funciones de chat y socialización.
+                </li>
+                <li>
+                    Promover la interacción social a través de la música, permitiendo a los usuarios compartir sus
+                    gustos musicales, descubrir nueva música y conectarse con otros usuarios con intereses similares.
+                </li>
+                <li>
+                    Ofrecer una experiencia de usuario intuitiva y fácil de usar que permita a los usuarios navegar por
+                    la aplicación sin esfuerzo y acceder a funciones principales como la selección de música y la
+                    gestión del chat.
+                </li>
+                <li>Garantizar la calidad del audio y video para una experiencia inmersiva y placentera al escuchar
+                    música y socializar en la plataforma.
+                </li>
+                <li>
+                    Fomentar un sentido de comunidad entre los usuarios, ofreciendo espacios de interacción donde puedan
+                    compartir experiencias musicales y descubrir nuevas perspectivas culturales a través de la música.
+                </li>
+                <li>
+                    Contribuir al crecimiento y diversificación del panorama musical al proporcionar una plataforma para
+                    artistas emergentes y músicos independientes para promocionar su música y conectarse con nuevos
+                    seguidores en todo el mundo.
+                </li>
+            </ul>
+            <h2> Específicos</h2>
+            <ul>
+                <li>Desarrollar un sistema de recomendación de música personalizada basado en las preferencias musicales
+                    de
+                    los usuarios, para ofrecer sugerencias relevantes y adaptadas a cada usuario.</li>
+                <li>Implementar funciones de chat en tiempo real que permitan a los usuarios interactuar mientras
+                    escuchan
+                    música, facilitando la comunicación y la socialización.</li>
+                <li>Establecer salas temáticas que abarquen una amplia variedad de géneros musicales y temas
+                    específicos,
+                    para satisfacer los intereses musicales diversos de los usuarios.</li>
+                <li>Integrar la reproducción de música desde servicios de streaming populares como Spotify, iTunes o
+                    YouTube
+                    Music, proporcionando acceso a un amplio catálogo de canciones.</li>
+                <li>Garantizar la privacidad y seguridad de los datos personales de los usuarios y de sus interacciones
+                    dentro de la plataforma, implementando medidas robustas de protección de datos.</li>
+                <li>Promover la participación activa de los usuarios mediante la creación de listas de reproducción
+                    colaborativas y la organización de eventos musicales en línea.</li>
+                <li>Mejorar continuamente la aplicación mediante la recopilación de comentarios de los usuarios y la
+                    realización de actualizaciones periódicas que incorporen nuevas características y mejoras de
+                    usabilidad.
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+
 </html>

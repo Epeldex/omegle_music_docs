@@ -1,54 +1,130 @@
 <!DOCTYPE html>
-<html >
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/stylesheet.css"/>
-        <title>Omegle Music - Página Principal</title>
-        <script src="../js/script.js"></script>
-    </head>
-    <body>
-        <header>
-            <nav class="menu">
-                <a id="omegleMusicButton" href="./index.html">Omegle Music</a>
-                <div class="dropdown">
-                    <a class="dropbtn">Menú</a>
-                    <div class="dropdown-content">
-                        <a id="btnOmegleMusic" href="./about.html">Sobre Omegle Music</a>
-                        <a id="btnQuienesSomos" href="./quienes_somos.html">Quiénes somos</a>
-                        <a id="btnObjetivos" href="./objetivos.html">Objetivos</a>
-                        <a id="btnRiesgos">Riesgos</a>
-                        <a id="btnTareas" href="./tareas.html">Tareas y cronograma</a>
-                        <a id="btnPresupuesto" href="./presupuestos.html">Recursos y presupuesto</a>
-                        <a id="btnSeguimiento" href="./seguimiento.html">Seguimiento y Evaluación</a>
-                    </div>
-                </div>
-            </nav>
-        </header>
+<html>
 
-        <div class="container">
-            <h1>Riesgos</h1>
-            <section>
-            <p> El lanzamiento de una nueva plataforma de música online enfrenta múltiples riesgos, uno de los más significativos es
-                la falta de interés del público objetivo. La alta probabilidad de que los usuarios potenciales no encuentren
-                atractiva la oferta sugiere la necesidad urgente de realizar encuestas y análisis de mercado antes de proceder. Esta
-                estrategia preventiva no solo permitirá comprender mejor las preferencias de los usuarios, sino que también ayudará
-                a asegurar que la plataforma ofrezca características y contenidos que verdaderamente resonarán con su público
-                objetivo. Sin esta investigación preliminar, la plataforma corre el riesgo de no alcanzar su mercado potencial y
-                sufrir un lanzamiento fallido.</p>
-            
-            <p> Por otro lado, los problemas de seguridad de datos presentan una amenaza significativa, dada la vulnerabilidad a
-                ataques cibernéticos que pueden comprometer la información del usuario. La probabilidad de tales incidentes es
-                calificada como media, lo cual no es despreciable. La implementación de medidas de seguridad robustas, incluyendo el
-                cifrado de datos y la autenticación de dos factores, junto con auditorías de seguridad regulares, es crucial para
-                proteger la integridad de la plataforma. Mantenerse al tanto de las últimas amenazas de seguridad y aplicar los
-                correspondientes parches de software es igualmente importante para prevenir cualquier brecha que pueda erosionar la
-                confianza del usuario y afectar negativamente la reputación de la plataforma.</p>
-            </p>
-            </section>
-        </div>
-        <footer>
-            <p>&copy; 2024 Omegle Music. All rights reserved.</p>
-        </footer>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesheet.css" />
+    <title>Omegle Music - Página Principal</title>
+    <script src="../js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <a id="omegleMusicButton" href="./index.html">Omegle Music</a>
+            <div class="dropdown">
+                <a class="dropbtn">Menú</a>
+                <div class="dropdown-content">
+                    <a id="btnObjetivos" href="./objetivos.html">Objetivos</a>
+                    <a id="btnRiesgos">Riesgos</a>
+                    <a id="btnTareas" href="./tareas.html">Tareas y cronograma</a>
+                    <a id="btnPresupuesto" href="./presupuestos.html">Recursos y presupuesto</a>
+                    <a id="btnTecnica" href="./documentacion_tecnica.html">Documentacion Tecnica</a>
+                    <a id="btnSeguimiento" href="./evaluacion.html">Evaluación</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Analisis de Riesgos</h1>
+        <ol>
+            <li><strong>Falta de interés del público objetivo:</strong> Existe la posibilidad de que el público objetivo
+                no encuentre atractiva la plataforma.
+                <ul>
+                    <li style="color: red"><strong>Probabilidad:</strong> Alta</li>
+                    <li><strong>Estrategia preventiva:</strong> Realizar encuestas y análisis de mercado para comprender
+                        mejor las preferencias del público objetivo antes del lanzamiento. Asegurarse de que la
+                        plataforma ofrezca características y contenido atractivo para el público objetivo identificado.
+                    </li>
+                </ul>
+            </li>
+            <li><strong>Problemas de seguridad de datos:</strong> Posible vulnerabilidad a ataques cibernéticos o
+                brechas de seguridad que comprometan la información del usuario.
+                <ul>
+                    <li style="color: rgb(255, 204, 0)"><strong>Probabilidad:</strong> Media</li>
+                    <li><strong>Estrategia preventiva:</strong> Implementar medidas de seguridad robustas, como cifrado
+                        de datos, autenticación de dos factores y auditorías de seguridad regulares. Mantenerse
+                        actualizado sobre las últimas amenazas de seguridad y parches de software.</li>
+                </ul>
+            </li>
+            <li><strong>Fallo en la integración de servicios de streaming:</strong> Dificultades técnicas al integrar
+                servicios de streaming populares como Spotify o YouTube Music.
+                <ul>
+                    <li style="color: rgb(255, 204, 0)"><strong>Probabilidad:</strong> Media</li>
+                    <li><strong>Estrategia preventiva:</strong> Realizar pruebas exhaustivas de integración antes del
+                        lanzamiento para identificar y solucionar posibles problemas. Establecer una comunicación clara
+                        con los proveedores de servicios de streaming para resolver cualquier problema técnico.</li>
+                </ul>
+            </li>
+            <li><strong>Competencia en el mercado:</strong> Posibilidad de enfrentar una fuerte competencia de otras
+                plataformas de música en línea.
+                <ul>
+                    <li style="color: red"><strong>Probabilidad:</strong> Alta</li>
+                    <li><strong>Estrategia preventiva:</strong> Realizar un análisis competitivo exhaustivo para
+                        identificar fortalezas y debilidades. Desarrollar características únicas y una propuesta de
+                        valor diferenciada para destacarse en el mercado.</li>
+                </ul>
+            </li>
+            <li><strong>Fracaso en la retención de usuarios:</strong> Riesgo de que los usuarios abandonen la plataforma
+                después de un breve período de uso.
+                <ul>
+                    <li style="color: rgb(255, 204, 0)"><strong>Probabilidad:</strong> Media</li>
+                    <li><strong>Estrategia preventiva:</strong> Implementar programas de fidelización de usuarios, como
+                        recompensas por la participación activa y características de personalización que mantengan a los
+                        usuarios comprometidos a largo plazo.</li>
+                </ul>
+            </li>
+            <li><strong>Problemas de licencias de música:</strong> Posible conflicto con los derechos de autor o
+                licencias de música que afecten la disponibilidad de ciertas canciones.
+                <ul>
+                    <li style="color: rgb(255, 204, 0)"><strong>Probabilidad:</strong> Media</li>
+                    <li><strong>Estrategia preventiva:</strong> Establecer acuerdos claros con sellos discográficos y
+                        titulares de derechos de autor antes de la reproducción de música en la plataforma. Mantener una
+                        comunicación abierta y transparente con los proveedores de contenido musical.</li>
+                </ul>
+            </li>
+            <li><strong>Riesgos legales y regulatorios:</strong> Posible enfrentamiento con regulaciones gubernamentales
+                relacionadas con la transmisión de música en línea.
+                <ul>
+                    <li style="color: greenyellow"><strong>Probabilidad:</strong> Baja</li>
+                    <li><strong>Estrategia preventiva:</strong> Contratar asesoría legal especializada para garantizar
+                        el cumplimiento de todas las regulaciones relevantes. Mantenerse informado sobre cambios en las
+                        leyes y regulaciones relacionadas con la industria de la música en línea.</li>
+                </ul>
+            </li>
+            <li><strong>Problemas de calidad de audio y video:</strong> Posibilidad de experimentar problemas técnicos
+                que afecten la calidad del audio y video durante la reproducción de música.
+                <ul>
+                    <li style="color: rgb(255, 204, 0)"><strong>Probabilidad:</strong> Media</li>
+                    <li><strong>Estrategia preventiva:</strong> Realizar pruebas rigurosas de calidad de audio y video
+                        durante el desarrollo de la plataforma. Establecer protocolos de monitoreo continuo para
+                        identificar y resolver rápidamente problemas de calidad.</li>
+                </ul>
+            </li>
+            <li><strong>Cambios en las preferencias del usuario:</strong> Riesgo de que las preferencias musicales y las
+                tendencias del usuario cambien con el tiempo.
+                <ul>
+                    <li style="color: red"><strong>Probabilidad:</strong> Alta</li>
+                    <li><strong>Estrategia preventiva:</strong> Mantenerse ágil y adaptable, actualizando regularmente
+                        la biblioteca de música y las características de la plataforma para satisfacer las cambiantes
+                        preferencias del usuario. Recopilar retroalimentación continua de los usuarios para identificar
+                        tendencias emergentes.</li>
+                </ul>
+            </li>
+            <li><strong>Problemas de escalabilidad:</strong> Posibilidad de que la plataforma experimente dificultades
+                para escalar y manejar un aumento repentino en el tráfico de usuarios.
+                <ul>
+                    <li style="color: rgb(255, 204, 0)"><strong>Probabilidad:</strong> Media</li>
+                    <li><strong>Estrategia preventiva:</strong> Diseñar la infraestructura de la plataforma con
+                        capacidad de escalabilidad en mente, utilizando tecnologías y servicios en la nube que puedan
+                        adaptarse fácilmente a fluctuaciones en la demanda. Realizar pruebas de carga exhaustivas para
+                        identificar y abordar posibles cuellos de botella antes del lanzamiento oficial.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+</body>
+
 </html>
